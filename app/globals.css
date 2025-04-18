@@ -1,26 +1,140 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(var(--foreground-rgb));
+  background: white;
+}
+
+.bg-normal-100 {
+  background-color: #a8a878;
+  color: white;
+}
+.bg-fire-100 {
+  background-color: #f08030;
+  color: white;
+}
+.bg-water-100 {
+  background-color: #6890f0;
+  color: white;
+}
+.bg-electric-100 {
+  background-color: #f8d030;
+  color: black;
+}
+.bg-grass-100 {
+  background-color: #78c850;
+  color: white;
+}
+.bg-ice-100 {
+  background-color: #98d8d8;
+  color: black;
+}
+.bg-fighting-100 {
+  background-color: #c03028;
+  color: white;
+}
+.bg-poison-100 {
+  background-color: #a040a0;
+  color: white;
+}
+.bg-ground-100 {
+  background-color: #e0c068;
+  color: black;
+}
+.bg-flying-100 {
+  background-color: #a890f0;
+  color: white;
+}
+.bg-psychic-100 {
+  background-color: #f85888;
+  color: white;
+}
+.bg-bug-100 {
+  background-color: #a8b820;
+  color: white;
+}
+.bg-rock-100 {
+  background-color: #b8a038;
+  color: white;
+}
+.bg-ghost-100 {
+  background-color: #705898;
+  color: white;
+}
+.bg-dragon-100 {
+  background-color: #7038f8;
+  color: white;
+}
+.bg-dark-100 {
+  background-color: #705848;
+  color: white;
+}
+.bg-steel-100 {
+  background-color: #b8b8d0;
+  color: black;
+}
+.bg-fairy-100 {
+  background-color: #ee99ac;
+  color: black;
+}
+
+.text-normal-800 {
+  color: white;
+}
+.text-fire-800 {
+  color: white;
+}
+.text-water-800 {
+  color: white;
+}
+.text-electric-800 {
+  color: black;
+}
+.text-grass-800 {
+  color: white;
+}
+.text-ice-800 {
+  color: black;
+}
+.text-fighting-800 {
+  color: white;
+}
+.text-poison-800 {
+  color: white;
+}
+.text-ground-800 {
+  color: black;
+}
+.text-flying-800 {
+  color: white;
+}
+.text-psychic-800 {
+  color: white;
+}
+.text-bug-800 {
+  color: white;
+}
+.text-rock-800 {
+  color: white;
+}
+.text-ghost-800 {
+  color: white;
+}
+.text-dragon-800 {
+  color: white;
+}
+.text-dark-800 {
+  color: white;
+}
+.text-steel-800 {
+  color: black;
+}
+.text-fairy-800 {
+  color: black;
 }
